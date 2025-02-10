@@ -1,0 +1,57 @@
+/* Basic Styling for All Webpages */
+body {
+    background-color: #e6b6a3;
+    color: #360e02;
+    font-family: 'DynaPuff', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.title {
+    background-color: #8f5c4d;
+    color: #edd6ce;
+    padding: 10px;
+    padding-left: 30px;
+    border: 5px solid #360e02;
+    border-radius: 50px;
+}
+
+/* Link Styling */
+a:link {
+    color: #fff5f2;
+}
+
+a:visited {
+    color: #7d2004;
+}
+
+/* Images */
+.heading-image {
+    margin: 50px;
+    border-radius: 100px;
+}
+
+.direction-image {
+    height: auto;
+    width: 400px;
+    border-radius: 50px;
+}
+
+img.ingredients {
+    height: auto;
+    width: 500px;
+}
+
+.finished {
+    height: auto;
+    width: 500px;
+    margin: 20px;
+}
+
+/* List Styling */
+li {
+    margin: 10px;
+}
+
+.direction-list {
+    margin-top: 30px;
+}
