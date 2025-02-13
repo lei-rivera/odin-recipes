@@ -5,7 +5,7 @@ body {
     font-family: 'DynaPuff', Arial, sans-serif;
     font-size: 20px;
     width: 1000px;
-    margin: 2% auto;
+    margin: 3% auto;
 }
 
 .title {
@@ -22,11 +22,17 @@ body {
 /* LINK STYLING */
 
 /* generic link styling */
-a.button {
+.button {
     background-color: #d4977f;
     border: 5px solid #360e02;
     border-radius: 10px;
     padding: 15px;
+}
+
+/* Return to Home button at top of recipe pages */
+div.button {
+    width: 160px;
+    margin: 20px 0px;
 }
 
 /* AllRecipes links at bottom of page */
@@ -37,19 +43,26 @@ a:link, a:visited {
 /* Homepage Selection of Recipes */
 #recipes {
     text-align: center;
+    font-size: 40px;
 }
 
 #recipes > li {
     display: block;
-    width: 200px;
-    padding: 20px;
-    margin: 10px;
+    padding: 50px;
+    margin: 10px auto;
+}
+
+#recipes > li > a.button {
+    padding: 30px;
+    border-radius: 30px;
 }
 
 
 /* Images */
 .heading-image {
-    margin: 50px;
+    width: 700px;
+    margin: 50px auto;
+    display: block;
     border-radius: 100px;
 }
 
@@ -67,14 +80,10 @@ img.ingredients {
 .finished {
     height: auto;
     width: 500px;
-    margin: 20px;
+    margin-top: 10px;
 }
 
-/* List Styling */
-li {
-    margin: 10px;
-}
-
+/* Styling for Directions Lists */
 .direction-list {
-    margin-top: 30px;
+    margin: 30px 0 10px 10px;
 }
