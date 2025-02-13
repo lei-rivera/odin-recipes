@@ -4,6 +4,8 @@ body {
     color: #360e02;
     font-family: 'DynaPuff', Arial, sans-serif;
     font-size: 20px;
+    width: 1000px;
+    margin: 2% auto;
 }
 
 .title {
@@ -13,16 +15,37 @@ body {
     padding-left: 30px;
     border: 5px solid #360e02;
     border-radius: 50px;
+    margin: 10px;
 }
 
-/* Link Styling */
-a:link {
-    color: #fff5f2;
+
+/* LINK STYLING */
+
+/* generic link styling */
+a.button {
+    background-color: #d4977f;
+    border: 5px solid #360e02;
+    border-radius: 10px;
+    padding: 15px;
 }
 
-a:visited {
+/* AllRecipes links at bottom of page */
+a:link, a:visited {
     color: #7d2004;
 }
+
+/* Homepage Selection of Recipes */
+#recipes {
+    text-align: center;
+}
+
+#recipes > li {
+    display: block;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+}
+
 
 /* Images */
 .heading-image {
